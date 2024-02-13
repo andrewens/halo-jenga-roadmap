@@ -8,7 +8,7 @@
       "links": {
         "What is the Halo Jenga game mode?": "https://www.youtube.com/watch?v=JEHKnc2Y9AM"
       },
-      "completed": "2-8-24"
+      "completed": "2-13-24"
     },
 
     "map-layout": {
@@ -31,11 +31,6 @@
       "display-name": "Leaderboard tracks wins/losses",
       "blurb": "Track players' wins/losses using a ROBLOX default leaderboard"
     },
-    "leaderboard-persists": {
-      "dependencies": ["leaderboard"],
-      "display-name": "Store Player Wins/Losses in Database (OPTIONAL)",
-      "blurb": "Players' wins/losses persist between play sessions"
-    },
 
     "gravity-lift": {
       "dependencies": ["start"],
@@ -49,18 +44,8 @@
     },
     "hammer": {
       "dependencies": ["gravity-lift", "spawn-props", "map-layout"],
-      "display-name": "Gravity Hammer (R&D EXPECTED)",
+      "display-name": "Gravity Hammer",
       "blurb": "Players can fling prop models into gravity lifts and into the jenga tower using a hammer, which creates an explosion that pushes prop models."
-    },
-    "first-person": {
-      "dependencies": ["hammer"],
-      "display-name": "Forced First Person (OPTIONAL)",
-      "blurb": "Players are locked into first person. While using the hammer, player can see their arms."
-    },
-    "hammer-animation": {
-      "dependencies": ["first-person"],
-      "display-name": "Hammer Swing Animation (OPTIONAL)",
-      "blurb": "When player uses hammer, a swinging animation plays"
     }
   }
 }
