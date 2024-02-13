@@ -8,13 +8,15 @@
       "links": {
         "What is the Halo Jenga game mode?": "https://www.youtube.com/watch?v=JEHKnc2Y9AM"
       },
-      "completed": "2-13-24"
+      "completed": "2-8-24"
     },
 
     "map-layout": {
       "dependencies": ["start"],
       "display-name": "Basic Map",
-      "blurb": "Build aloating island, destructible jenga tower, spectator box, and spawn locations"
+      "blurb": "Build aloating island, destructible jenga tower, spectator box, and spawn locations",
+      "completed": "2-13-24",
+      "icon": "assets/map.png"
     },
     "assign-teams": {
       "dependencies": ["map-layout"],
