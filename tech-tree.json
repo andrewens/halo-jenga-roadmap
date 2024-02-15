@@ -33,11 +33,12 @@
       "display-name": "Leaderboard tracks wins/losses",
       "blurb": "Track players' wins/losses using a ROBLOX default leaderboard"
     },
-
     "gravity-lift": {
       "dependencies": ["start"],
       "display-name": "Gravity Lift",
-      "blurb": "Dropping unanchored parts, models, or players onto a gravity lift gently throws it at an angle"
+      "blurb": "Dropping unanchored parts or models onto a gravity lift gently throws it at an angle",
+      "icon": "assets/up-arrow.jpg",
+      "completed": "2-15-24"
     },
     "spawn-props": {
       "dependencies": ["start"],
