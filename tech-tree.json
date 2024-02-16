@@ -28,7 +28,9 @@
     "win-condition": {
       "dependencies": ["assign-teams"],
       "display-name": "Win Condition",
-      "blurb": "Winning players names are displayed at end of round. 'Infected' player wins if all other Players die within the time limit. Normal Players win if the 'Infected' player dies or they survive until the end of the time limit."
+      "blurb": "Winning players names are displayed at end of round. 'Infected' player wins if all other Players die within the time limit. Normal Players win if the 'Infected' player dies or they survive until the end of the time limit.",
+      "completed": "2-16-24",
+      "icon": "assets/trophy.png"
     },
     "leaderboard": {
       "dependencies": ["win-condition"],
