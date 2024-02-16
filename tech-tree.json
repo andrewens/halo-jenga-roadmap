@@ -21,7 +21,9 @@
     "assign-teams": {
       "dependencies": ["map-layout"],
       "display-name": "Assign Teams",
-      "blurb": "In a loop, randomly pick an 'infected' Player and spawn all Players into the map. Players that die become spectators. Everyone becomes a spectator at the end of the round, with an intermission period. Players can be given team-specific tools on spawn."
+      "blurb": "In a loop, randomly pick an 'infected' Player and spawn all Players into the map. Players that die become spectators. Everyone becomes a spectator at the end of the round, with an intermission period. Players can be given team-specific tools on spawn.",
+      "completed": "2-16-24",
+      "icon": "assets/three-people.png"
     },
     "win-condition": {
       "dependencies": ["assign-teams"],
@@ -43,7 +45,9 @@
     "spawn-props": {
       "dependencies": ["start"],
       "display-name": "Spawn Unanchored Props",
-      "blurb": "Prop Spawners are boxes that spawn throwable prop models. When the model is destroyed, it respawns after a delay. It also unanchors/welds models upon spawn."
+      "blurb": "Prop Spawners are boxes that spawn throwable prop models. When the model is destroyed, it respawns after a delay. It also unanchors/welds models upon spawn.",
+      "icon": "assets/refresh.jpg",
+      "completed": "2-15-24"
     },
     "hammer": {
       "dependencies": ["gravity-lift", "spawn-props", "map-layout"],
