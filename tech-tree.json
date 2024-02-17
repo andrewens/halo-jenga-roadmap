@@ -35,7 +35,9 @@
     "leaderboard": {
       "dependencies": ["win-condition"],
       "display-name": "Leaderboard tracks wins/losses",
-      "blurb": "Track players' wins/losses using a ROBLOX default leaderboard"
+      "blurb": "Track players' wins/losses using a ROBLOX default leaderboard",
+      "completed": "2-17-24",
+      "icon": "assets/leaderboard.jpg"
     },
     "gravity-lift": {
       "dependencies": ["start"],
