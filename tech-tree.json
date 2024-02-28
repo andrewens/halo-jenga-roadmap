@@ -56,7 +56,24 @@
     "hammer": {
       "dependencies": ["gravity-lift", "spawn-props", "map-layout"],
       "display-name": "Gravity Hammer",
-      "blurb": "Players can fling prop models into gravity lifts and into the jenga tower using a hammer, which creates an explosion that pushes prop models."
+      "blurb": "Players can fling prop models into gravity lifts and into the jenga tower using a hammer, which creates an explosion that pushes prop models.",
+      "completed": "2-28-24",
+      "icon": "assets/thor-hammer.jpg"
+    },
+    "balancing": {
+      "dependencies": ["hammer", "leaderboard"],
+      "display-name": "Balance The Game",
+      "blurb": "Tune physics values to balance game difficulty with reward to maximize fun/engagement",
+      "completed": "2-28-24",
+      "icon": "assets/seesaw.png"
+    },
+    "playtesting": {
+      "dependencies": ["balancing"],
+      "display-name": "Playtest",
+      "blurb": "Is the game fun?",
+      "completed": "2-28-24",
+      "icon": "assets/controller.png"
     }
+
   }
 }
