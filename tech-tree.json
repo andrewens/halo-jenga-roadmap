@@ -73,7 +73,89 @@
       "blurb": "Is the game fun?",
       "completed": "2-28-24",
       "icon": "assets/controller.png"
+    },
+    "pretty-map": {
+      "dependencies": ["playtesting"],
+      "display-name": "Make the Map Pretty",
+      "blurb": "(and take screenshots for thumbnails)",
+      "completed": "2-29-24",
+      "icon": "assets/floating-rock.jpg"
+    },
+    "basic-icon": {
+      "dependencies": ["pretty-map"],
+      "display-name": "Basic Game Icon",
+      "completed": "2-29-24",
+      "icon": "assets/halo-jenga-icon.png"
+    },
+    "gameplay-footage": {
+      "dependencies": ["pretty-map"],
+      "display-name": "Record Fun Gameplay Footage",
+      "blurb": "Playtest #2, with pretty map."
+    },
+    "spectate-mode": {
+      "dependencies": ["playtesting"],
+      "display-name": "POV Spectate Mode",
+      "blurb": "Lobby players have a UI button to spectate any player still in the match. The spectator's camera tracks the other player's body. The UI includes arrow buttons to toggle between different players. Arrow keys also work. Spectators leave spectate mode when they enter the match. Spectators can also manually exit spectate mode."
+    },
+    "boombox": {
+      "dependencies": ["playtesting"],
+      "display-name": "Boombox Item",
+      "blurb": "Players can be given boomboxes (radios) that stick to their back. Players can control their radio by inputting a roblox sound id and clicking 'play' or 'stop'. Players with boomboxes always respawn with them on. The sound plays in 3d space where the boombox is, and is reasonably loud."
+    },
+    "boombox-suggestions": {
+      "dependencies": ["boombox"],
+      "display-name": "Boombox Song Suggestions (OPTIONAL)",
+      "blurb": "The boombox GUI includes a pre-configured list of songs, which can be loaded by clicking them and then pressing 'play' or 'stop' normally. This makes using the boombox more accessible."
+    },
+    "boombox-cache": {
+      "dependencies": ["boombox"],
+      "display-name": "Boombox Songs Are Saved (OPTIONAL)",
+      "blurb": "After a player plays a song in their boombox, the song is saved to a list where it can be easily re-loaded and played later by clicking on the song name."
+    },
+    "taunt-animations": {
+      "dependencies": ["playtesting"],
+      "display-name": "Load Taunt Emotes into Roblox Emotes Menu",
+      "blurb": "Custom taunt animations can be loaded into ROBLOX emotes menu and played by the user every time they spawn."
+    },
+    "double-jump": {
+      "dependencies": ["playtesting"],
+      "display-name": "Double Jump",
+      "blurb": "Players with double-jump ability can get one extra jump in the air, which resets when they hit the ground."
+    },
+    "shop": {
+      "dependencies": ["taunt-animations", "boombox", "double-jump"],
+      "display-name": "Basic Shop",
+      "blurb": "Selling taunts, double-jump, and boombox (separately, as gamepasses). User clicks a button on side of screen to open/close shop. Shop is a scrolling frame with a grid of shop item cards, which display the item name, picture, description, and a purchase button with the price (robux) on it. Users can purchase items, which shows the item as bought. Shop items persist between game sessions & character respawns. The shop gui is transparent so players see if they're in danger."
+    },
+    "shop-design": {
+      "dependencies": ["shop"],
+      "display-name": "Shop GUI Design",
+      "blurb": "Shop item cards and purchase buttons have an animated glow under the user's cursor. Fonts look sleek. Buttons make satisfying noises on click. The shop is colored minimalistically black & white, with small rounded corners applied judiciously. Shop item pictures are minimalistic and match a cohesive theme."
+    },
+    "browse-catalog": {
+      "dependencies": ["shop"],
+      "display-name": "Browse ROBLOX Catalog In-Game (OPTIONAL)",
+      "blurb": "Generate 40% (?) commission by giving users access to the ROBLOX Catalog in-game. Filter catalog search to funny/serious character morphs that fit with our game."
+    },
+    "market-test": {
+      "dependencies": ["shop-design", "gameplay-footage", "basic-icon"],
+      "display-name": "Market Test #1",
+      "blurb": "Run a marketing campaign and track what users like/dislike, along with overall retention & profit."
+    },
+    "smart-team-assignment": {
+      "dependencies": ["playtesting"],
+      "display-name": "Smart, Round-Robin Team Assignment (OPTIONAL)",
+      "blurb": "Assign players to be attacker fairly, such that each player gets a turn before people get a second turn, while also balancing players leaving/joining the game. Also prevent AFK players from getting picked, and attackers lose after a minute of being AFK."
+    },
+    "sell-attacker-assignments": {
+      "dependencies": ["shop", "smart-team-assignment"],
+      "display-name": "Pay to Be Attacker (OPTIONAL)",
+      "blurb": "Users can spend robux to jump to be chosen as attacker next round. If there are multiple paying users, it forms a line. The price is prohibitively expensive to prevent this from happening at an annoying level for unpaying users."
+    },
+    "attacker-tutorial": {
+      "dependencies": ["playtesting"],
+      "display-name": "Tutorial For New Attackers (OPTIONAL)",
+      "blurb": "New players in the attacker role receive a tutorial HUD which instructs them to 1) push props with hammer explosions and 2) push props into the launchers. Tutorial tasks automatically end when user completes them. Users can replay the tutorial at any time and it can be skipped."
     }
-
   }
 }

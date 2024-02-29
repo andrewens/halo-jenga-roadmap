@@ -37,6 +37,7 @@
 }
 .tech-tree-blurb {
   background: white;
+  opacity: 0.9;
   padding: 5px;
   flex-grow: 1;
 }
