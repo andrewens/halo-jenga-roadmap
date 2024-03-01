@@ -96,6 +96,8 @@
       "dependencies": ["playtesting"],
       "display-name": "POV Spectate Mode",
       "blurb": "Lobby players have a UI button to spectate any player still in the match. The spectator's camera tracks the other player's body. The UI includes arrow buttons to toggle between different players. Arrow keys also work. Spectators leave spectate mode when they enter the match. Spectators can also manually exit spectate mode."
+      ,"completed": "3-1-24",
+      "icon": "assets/camera.png"
     },
     "boombox": {
       "dependencies": ["playtesting"],
