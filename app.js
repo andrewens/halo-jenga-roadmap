@@ -9,9 +9,10 @@ const LOCK_ICON = "assets/lock.png";
 const UNKNOWN_ICON = "assets/question-mark.png";
 const IN_PROGRESS_ICON = "assets/in-progress.png";
 
-const UNKNOWN_INDEX = 2; // completionIndex at which nodes are marked unknown instead of just locked
+const UNKNOWN_INDEX = 20; // completionIndex at which nodes are marked unknown instead of just locked
 // completionIndex=0 for nodes that are completed; completionIndex=1 for nodes that have a completed dependency; etc etc
 const FORCE_DISPLAY_ICONS = false; // set to false for lock icons
+const INITIALLY_SCROLL_TO_VIEW_NODE = "playtest2"; // name of the node you want to automatically scroll to on start
 
 const BIG_NUMBER = 10 ^ 6; // completion index can't be bigger than this... idk how javascript works yet lol
 
@@ -273,8 +274,7 @@ function generateTechTree(techTreeJson) {
 
   // support "back to start" button
   function backToStart() {
-    const firstNodeName = rowIndexToNodes[0][0];
-    const firstNodeIcon = nodeIcons[firstNodeName];
+    const firstNodeIcon = nodeIcons[INITIALLY_SCROLL_TO_VIEW_NODE];
     if (firstNodeIcon) {
       firstNodeIcon.scrollIntoView({
         block: "center",

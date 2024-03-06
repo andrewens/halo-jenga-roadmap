@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 6000px;
-  height: 6000px;
+  width: 9000px;
+  height: 9000px;
 }
 .tech-tree-row {
   width: auto;
