@@ -91,8 +91,8 @@
     "spectate-mode": {
       "dependencies": ["playtest1"],
       "display-name": "POV Spectate Mode",
-      "blurb": "Lobby players have a UI button to spectate any player still in the match. The spectator's camera tracks the other player's body. The UI includes arrow buttons to toggle between different players. Arrow keys also work. Spectators leave spectate mode when they enter the match. Spectators can also manually exit spectate mode."
-      ,"completed": "3-1-24",
+      "blurb": "Lobby players have a UI button to spectate any player still in the match. The spectator's camera tracks the other player's body. The UI includes arrow buttons to toggle between different players. Arrow keys also work. Spectators leave spectate mode when they enter the match. Spectators can also manually exit spectate mode.",
+      "completed": "3-1-24",
       "icon": "assets/camera.png"
     },
     "playtest2": {
@@ -105,7 +105,9 @@
     "roadmap2": {
       "dependencies": ["playtest2"],
       "display-name": "Plan for next playtest",
-      "blurb": "Edit the roadmap to account for issues brought up in Playtest #2."
+      "blurb": "Edit the roadmap to account for issues brought up in Playtest #2.",
+      "completed": "3-6-24",
+      "icon": "assets/blueprint.png"
     },
 
     "smart-team-assignment": {
@@ -141,7 +143,9 @@
     "reset-props-every-match": {
       "dependencies": ["roadmap2"],
       "display-name": "Respawn All Props At Beginning Of Match + Dedicated Match Loading State",
-      "blurb": "All of attacker's props are reset at the beginning of the match (this is mainly for groups of barrels). Adjust prop respawn time such that it takes too long for a prop to respawn for an attacker to camp a single launcher. Create a separate 'loading' match state to ensure the tower and map is fully loaded before players get spawned in. Admins can't restart the match during a loading period."
+      "blurb": "All of attacker's props are reset at the beginning of the match (this is mainly for groups of barrels). Adjust prop respawn time such that it takes too long for a prop to respawn for an attacker to camp a single launcher. Create a separate 'loading' match state to ensure the tower and map is fully loaded before players get spawned in. Admins can't restart the match during a loading period.",
+      "completed": "3-7-24",
+      "icon": "assets/recycle.png"
     },
     "prop-density-controls": {
       "dependencies": ["reset-props-every-match"],
