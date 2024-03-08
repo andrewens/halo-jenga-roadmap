@@ -150,7 +150,8 @@
     "prop-density-controls": {
       "dependencies": ["reset-props-every-match"],
       "display-name": "Prop Density Controls",
-      "blurb": "Define functions for a) setting the density and friction of every part in the tower and b) setting the total mass of each specific thrown prop. Tower density & mass per prop are defined as constants in config, but they can be changed (and outputted) via admin command line while playing the game."
+      "blurb": "Define functions for a) setting the density and friction of every part in the tower and b) setting the total mass of each specific thrown prop. Tower density & mass per prop are defined as constants in config, but they can be changed (and outputted) via admin command line while playing the game.",
+      "started": "3-7-24"
     },
     "crash-sfx": {
       "dependencies": ["prop-density-controls", "objective-guis"],
