@@ -118,7 +118,8 @@
     "intuitive-gravity-hammer": {
       "dependencies": ["roadmap2"],
       "display-name": "Make Gravity Hammer More Intuitive",
-      "blurb": "Gravity Hammer cursor changes to tell the user when it is too far away for an explosion or when the Gravity Hammer is 'reloading'. Gravity Hammer is automatically equipped when players become attackers."
+      "blurb": "Gravity Hammer cursor changes to tell the user when it is too far away for an explosion or when the Gravity Hammer is 'reloading'. Gravity Hammer is automatically equipped when players become attackers.",
+      "started": "3-12-24"
     },
     "attacker-tutorial": {
       "dependencies": ["buff-gravity-lift", "intuitive-gravity-hammer"],
@@ -133,7 +134,8 @@
     "buff-gravity-lift": {
       "dependencies": ["roadmap2"],
       "display-name": "Buff Gravity Lifts",
-      "blurb": "Make it harder for attacker to miss using Gravity Lifts by reducing or cancelling any velocity an object might have at the moment it is pushed into the gravity lift. Design a new test environment that accounts for pushing objects into lifts with the gravity hammer at different angles. Adjust prop spawners on the island to reduce the hassle of aiming props at remaining bits of tower."
+      "blurb": "Make it harder for attacker to miss using Gravity Lifts by reducing or cancelling any velocity an object might have at the moment it is pushed into the gravity lift. Design a new test environment that accounts for pushing objects into lifts with the gravity hammer at different angles. Adjust prop spawners on the island to reduce the hassle of aiming props at remaining bits of tower.",
+      "started": "3-12-24"
     },
     "red-bull": {
       "dependencies": ["buff-gravity-lift"],
