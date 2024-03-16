@@ -142,7 +142,10 @@
     "red-bull": {
       "dependencies": ["buff-gravity-lift"],
       "display-name": "Red Bull gives Attackers Speed Boost",
-      "blurb": "Attackers are given two red bull energy drinks, which they can consume for a temporary speed boost. Red bulls are removed after they're consumed. Red Bulls allow an attacker to cross the entire island in ~3 seconds."
+      "blurb": "Attackers are given two red bull energy drinks, which they can consume for a temporary speed boost. Red bulls are removed after they're consumed. Red Bulls allow an attacker to cross the entire island in ~3 seconds.",
+      "started": "3-16-24",
+      "completed": "3-16-24",
+      "icon": "assets/red-bull.png"
     },
     "reset-props-every-match": {
       "dependencies": ["roadmap2"],
