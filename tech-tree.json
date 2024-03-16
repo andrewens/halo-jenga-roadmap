@@ -135,7 +135,9 @@
       "dependencies": ["roadmap2"],
       "display-name": "Buff Gravity Lifts",
       "blurb": "Make it harder for attacker to miss using Gravity Lifts by reducing or cancelling any velocity an object might have at the moment it is pushed into the gravity lift. Design a new test environment that accounts for pushing objects into lifts with the gravity hammer at different angles. Adjust prop spawners on the island to reduce the hassle of aiming props at remaining bits of tower.",
-      "started": "3-12-24"
+      "started": "3-12-24",
+      "completed": "3-16-24",
+      "icon": "assets/up-arrow.jpg"
     },
     "red-bull": {
       "dependencies": ["buff-gravity-lift"],
