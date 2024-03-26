@@ -119,12 +119,17 @@
       "dependencies": ["roadmap2"],
       "display-name": "Make Gravity Hammer More Intuitive",
       "blurb": "Gravity Hammer cursor changes to tell the user when it is too far away for an explosion or when the Gravity Hammer is 'reloading'. Gravity Hammer is automatically equipped when players become attackers.",
-      "started": "3-12-24"
+      "started": "3-12-24",
+      "completed": "3-18-24",
+      "icon": "assets/thor-hammer.jpg"
     },
     "attacker-tutorial": {
       "dependencies": ["buff-gravity-lift", "intuitive-gravity-hammer"],
       "display-name": "Tutorial For New Attackers",
-      "blurb": "New players in the attacker role receive a tutorial HUD which instructs them to 1) push props with hammer explosions, 2) push props into the launchers, and 3) push props at different angles to aim. Tutorial tasks automatically end when user completes them. Users can replay the tutorial at any time and it can be skipped. The prop/launcher setup near attacker spawn is designed for the tutorial."
+      "blurb": "New players in the attacker role receive a tutorial HUD which instructs them to 1) push props with hammer explosions, 2) push props into the launchers, and 3) push props at different angles to aim. Tutorial tasks automatically end when user completes them. Users can replay the tutorial at any time and it can be skipped. The prop/launcher setup near attacker spawn is designed for the tutorial.",
+      "started": "3-18-24",
+      "completed": "3-26-24",
+      "icon": "assets/help-dialog.png"
     },
     "objective-guis": {
       "dependencies": ["attacker-tutorial", "reset-props-every-match"],
