@@ -134,7 +134,10 @@
     "objective-guis": {
       "dependencies": ["attacker-tutorial", "reset-props-every-match"],
       "display-name": "Tell The Player What's Going On",
-      "blurb": "When the match begins, display the name of the player's team and their objective (survive/destroy the tower leave no survivors) on their screen. Also display the match state by the timer gui. Update the number of survivors under the match timer gui and notify everyone when a player was eliminated. Eliminated players see a gui that says something like 'You were eliminated!'"
+      "blurb": "When the match begins, display the name of the player's team and their objective (survive/destroy the tower leave no survivors) on their screen. Also display the match state by the timer gui. Update the number of survivors under the match timer gui and notify everyone when a player was eliminated. Eliminated players see a gui that says something like 'You were eliminated!'",
+      "started": "3-27-24",
+      "completed": "3-28-24",
+      "icon": "assets/browser-windows.png"
     },
     "buff-gravity-lift": {
       "dependencies": ["roadmap2"],
@@ -170,23 +173,35 @@
     "crash-sfx": {
       "dependencies": ["prop-density-controls", "objective-guis"],
       "display-name": "Props Make Sound Effects When Crashing Into The Tower",
-      "blurb": "When props hit the tower for the first time, they make a sound effect custom to that prop. When players are hit with a prop, they make a sound effect like a scream or a splat. When players are eliminated, a cannon sound (or something similar) fires. Gravity Hammer explosions make a noise and props thrown by a Gravity Lift make a 'whoosh' noise. Victory / defeat music plays at the end of the match, depending on if you won or lost."
+      "blurb": "When props hit the tower for the first time, they make a sound effect custom to that prop. When players are hit with a prop, they make a sound effect like a scream or a splat. When players are eliminated, a cannon sound (or something similar) fires. Gravity Hammer explosions make a noise and props thrown by a Gravity Lift make a 'whoosh' noise. Victory / defeat music plays at the end of the match, depending on if you won or lost.",
+      "started": "3-28-24",
+      "completed": "3-29-24",
+      "icon": "assets/speaker-icon.png"
     },
     "balancing2": {
       "dependencies": ["crash-sfx"],
       "display-name": "Balance The Game",
-      "blurb": "The tower should not fall apart when the match starts. Players should not spawn on the island unless they are an attacker. It should not be frustrating to destroy the tower as an attacker, but they should be forced to move to different launchers and strategize a bit. The new GUIs needs to be obvious but not in the way. SFX should not be too loud."
+      "blurb": "The tower should not fall apart when the match starts. Players should not spawn on the island unless they are an attacker. It should not be frustrating to destroy the tower as an attacker, but they should be forced to move to different launchers and strategize a bit. The new GUIs needs to be obvious but not in the way. SFX should not be too loud.",
+      "started": "3-29-24",
+      "completed": "3-29-24",
+      "icon": "assets/seesaw.png"
     },
 
     "playtest3": {
       "dependencies": ["balancing2"],
       "display-name": "Game is User-Friendly (Playtest #3)",
-      "blurb": "Game should be intuitive and fun to people who have never played this game before. Game should be well-balanced."
+      "blurb": "Game should be intuitive and fun to people who have never played this game before. Game should be well-balanced.",
+      "started": "3-29-24",
+      "completed": "3-29-24",
+      "icon": "assets/controller.png"
     },
     "roadmap3": {
       "dependencies": ["playtest3"],
       "display-name": "Plan for first market release",
-      "blurb": "Update the roadmap to account for issues & ideas brought up in playtest #3"
+      "blurb": "Update the roadmap to account for issues & ideas brought up in playtest #3",
+      "started": "3-29-24",
+      "completed": "3-29-24",
+      "icon": "assets/blueprint.png"
     },
     "boombox": {
       "dependencies": ["roadmap3"],
