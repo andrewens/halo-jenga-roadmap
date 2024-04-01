@@ -203,15 +203,19 @@
       "completed": "3-29-24",
       "icon": "assets/blueprint.png"
     },
-    "boombox": {
-      "dependencies": ["roadmap3"],
-      "display-name": "Boombox Item",
-      "blurb": "Players can be given boomboxes (radios) that stick to their back. Players can control their radio by inputting a roblox sound id and clicking 'play' or 'stop'. Players with boomboxes always respawn with them on. The sound plays in 3d space where the boombox is, and is reasonably loud."
+    "sell-attacker-assignments": {
+      "dependencies": ["roadmap3", "smart-team-assignment"],
+      "display-name": "Pay to Be Attacker",
+      "blurb": "Users can spend robux to jump to be chosen as attacker next round. If there are multiple paying users, it forms a line. The price is prohibitively expensive to prevent this from happening at an annoying level for unpaying users."
     },
+
     "taunt-animations": {
       "dependencies": ["roadmap3"],
       "display-name": "Load Taunt Emotes into Roblox Emotes Menu",
-      "blurb": "Custom taunt animations can be loaded into ROBLOX emotes menu and played by the user every time they spawn."
+      "blurb": "Custom taunt animations can be loaded into ROBLOX emotes menu and played by the user every time they spawn.",
+      "started": "3-29-24",
+      "completed": "3-29-24",
+      "icon": "assets/emote.jpeg"
     },
     "double-jump": {
       "dependencies": ["roadmap3"],
@@ -233,10 +237,10 @@
       "display-name": "Browse ROBLOX Emotes Catalog In-Game",
       "blurb": "Generate 40% (?) commission by giving users access to the ROBLOX Catalog in-game. Filter catalog search to funny dancing emotes for taunting attackers."
     },
-    "sell-attacker-assignments": {
+    "boombox": {
       "dependencies": ["roadmap3"],
-      "display-name": "Pay to Be Attacker",
-      "blurb": "Users can spend robux to jump to be chosen as attacker next round. If there are multiple paying users, it forms a line. The price is prohibitively expensive to prevent this from happening at an annoying level for unpaying users."
+      "display-name": "Boombox Item",
+      "blurb": "Players can be given boomboxes (radios) that stick to their back. Players can control their radio by inputting a roblox sound id and clicking 'play' or 'stop'. Players with boomboxes always respawn with them on. The sound plays in 3d space where the boombox is, and is reasonably loud."
     },
     "playtest4": {
       "dependencies": ["browse-catalog", "shop-design"],
