@@ -225,7 +225,10 @@
     "shop": {
       "dependencies": ["taunt-animations", "boombox", "double-jump"],
       "display-name": "Basic Shop",
-      "blurb": "Selling taunts, double-jump, and boombox (separately, as gamepasses). User clicks a button on side of screen to open/close shop. Shop is a scrolling frame with a grid of shop item cards, which display the item name, picture, description, and a purchase button with the price (robux) on it. Users can purchase items, which shows the item as bought. Shop items persist between game sessions & character respawns. The shop gui is transparent so players see if they're in danger."
+      "blurb": "Selling taunts, double-jump, and boombox (separately, as gamepasses). User clicks a button on side of screen to open/close shop. Shop is a scrolling frame with a grid of shop item cards, which display the item name, picture, description, and a purchase button with the price (robux) on it. Users can purchase items, which shows the item as bought. Shop items persist between game sessions & character respawns. The shop gui is transparent so players see if they're in danger.",
+      "completed": "4-4-24",
+      "started": "4-1-24",
+      "icon": "assets/browser-windows.png"
     },
     "shop-design": {
       "dependencies": ["shop"],
@@ -235,7 +238,10 @@
     "browse-catalog": {
       "dependencies": ["shop"],
       "display-name": "Browse ROBLOX Emotes Catalog In-Game",
-      "blurb": "Generate 40% (?) commission by giving users access to the ROBLOX Catalog in-game. Filter catalog search to funny dancing emotes for taunting attackers."
+      "blurb": "Generate 40% (?) commission by giving users access to the ROBLOX Catalog in-game. Filter catalog search to funny dancing emotes for taunting attackers.",
+      "started": "4-2-24",
+      "completed": "4-4-24",
+      "icon": "assets/glow-up.png"
     },
     "boombox": {
       "dependencies": ["roadmap3"],
