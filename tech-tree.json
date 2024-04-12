@@ -220,7 +220,9 @@
     "double-jump": {
       "dependencies": ["roadmap3"],
       "display-name": "Double Jump",
-      "blurb": "Players with double-jump ability can get one extra jump in the air, which resets when they hit the ground."
+      "blurb": "Players with double-jump ability can get one extra jump in the air, which resets when they hit the ground.",
+      "completed": "4-12-24",
+      "icon": "assets/up-arrow.jpg"
     },
     "shop": {
       "dependencies": ["taunt-animations", "boombox", "double-jump"],
@@ -246,7 +248,9 @@
     "boombox": {
       "dependencies": ["roadmap3"],
       "display-name": "Boombox Item",
-      "blurb": "Players can be given boomboxes (radios) that stick to their back. Players can control their radio by inputting a roblox sound id and clicking 'play' or 'stop'. Players with boomboxes always respawn with them on. The sound plays in 3d space where the boombox is, and is reasonably loud."
+      "blurb": "Players can be given boomboxes (radios) that stick to their back. Players can control their radio by inputting a roblox sound id and clicking 'play' or 'stop'. Players with boomboxes always respawn with them on. The sound plays in 3d space where the boombox is, and is reasonably loud.",
+      "completed": "4-12-24",
+      "icon": "assets/speaker-icon.png"
     },
     "playtest4": {
       "dependencies": ["browse-catalog", "shop-design"],
