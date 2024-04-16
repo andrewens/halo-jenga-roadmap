@@ -114,6 +114,8 @@
       "dependencies": ["roadmap2"],
       "display-name": "Smart Attacker Assignment Queue",
       "blurb": "Assign players to be attacker fairly with a queue, such that each player gets a turn before others get a second turn, while also balancing players leaving/joining the game. AFK players can't be attacker, but don't lose their spot in line. Attackers lose after a minute of being AFK. Players can view the queue, and AFK players are given an 'AFK' tag above their heads and in the queue gui. Admins can arbitrarily assign a player's position in queue -- but all players must always be in the queue only once. One attacker is picked per six players on the tower. AFK Players screen tells them that they are AFK and won't be picked to be attacker."
+   , "completed": "4-16-24",
+   "icon": "assets/check-mark-shield.png"
     },
     "intuitive-gravity-hammer": {
       "dependencies": ["roadmap2"],
@@ -254,8 +256,10 @@
     },
     "playtest4": {
       "dependencies": ["browse-catalog", "shop-design"],
-      "display-name": "Game is Monetized (Playtest #4?)",
-      "blurb": "Game is monetized."
+      "display-name": "Game is Monetized",
+      "blurb": "Game is monetized & ready for launch.",
+      "completed": "4-16-24",
+      "icon": "assets/trophy.png"
     }
   }
 }
